@@ -16,5 +16,5 @@ public class ProjectPanel2 extends JPanel
 	{
 		setPreferredSize(new Dimension( ProjectFrame.SIZE,ProjectFrame.SIZE )  );
 	}
-
+ 
 }

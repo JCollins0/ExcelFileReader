@@ -30,5 +30,5 @@ public class ProjectFrame extends JFrame
 		setLocationRelativeTo(null);
 		pack();
 	}
-
+ 
 }

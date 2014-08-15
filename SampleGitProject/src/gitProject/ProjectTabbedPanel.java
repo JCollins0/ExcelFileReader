@@ -26,4 +26,4 @@ public class ProjectTabbedPanel extends JTabbedPane
 		this.addTab("Tab 1", projectPanel);
 		this.addTab("Tab 2", projectPanel2);
 	}
-}
+} 
