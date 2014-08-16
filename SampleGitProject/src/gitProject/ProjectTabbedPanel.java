@@ -1,7 +1,6 @@
 package gitProject;
 
 import java.awt.Dimension;
-import java.awt.event.KeyEvent;
 
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
@@ -24,7 +23,7 @@ public class ProjectTabbedPanel extends JTabbedPane
 		projectPanel = new ProjectPanel();
 		projectPanel2 = new ProjectPanel2();
 		
-		this.addTab("Tab 1", projectPanel);
+		this.addTab(projectPanel.getName(), projectPanel);
 		this.addTab("Tab 2", projectPanel2);
 		
 		//setMnemonicAt(0, KeyEvent.VK_1); //Uses "Alt" Key
